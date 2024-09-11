@@ -1,0 +1,17 @@
+
+================================================ Οδηγίες Μεταγλώττισης και Εκτέλεσης του κώδικα: ===================================================================================
+
+
+
+Εκτέλεση του γραφικού περιβάλλοντος στο φάκελο gui:
+1. Μεταγλώττιση -> g++ matrix.cpp Surfer.cpp gui.cpp -IC:\\wxWidgets-3.1.4\\include -IC:\\wxWidgets-3.1.4\\lib\\gcc_dll\\mswu -LC:\\wxWidgets-3.1.4\\lib\\gcc_dll -lwxmsw31u_core -lwxbase31u -o runnable
+2. Εκτέλεση -> runnable
+
+
+
+
+Εκτέλεση του csv_exportr αρχείου στο φάκελο csv:
+1. Μεταγλώττιση -> g++ matrix.cpp Surfer.cpp csv_export.cpp -o runnable
+2. Εκτέλεση -> runnable
+
+
